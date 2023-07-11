@@ -19,5 +19,5 @@ Then edit your .bashrc file (in your home directory), and add the line:
 
 This assumes you have the folder top_terminal in your home directory.
 
-^if you have done this <i>incorrectly<i>, the terminal will tell you at the top.
+<i> if you have done this incorrectly, the terminal will tell you at the top.
 I'm sure this works similarly for other shell languages :D
