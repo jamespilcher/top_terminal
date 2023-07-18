@@ -1,11 +1,7 @@
 #!/bin/bash
 #!/bin/bash
 
-# Get the name of the user
-user_name=$USER
-
-# Get the ID of the last opened window that contains the user's name
-
+# Get the ID of the last opened window that contains the keyword 'Terminal'
 window_id=$(wmctrl -l | awk '$0 ~ /Terminal/ {id=$1} END{print id}')
 
 # Set the window to always be on top
