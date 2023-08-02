@@ -4,7 +4,7 @@ Requires wmctrl for window control.
 
 `sudo apt-get install wmctrl`
 
-It's a bit of a bodge BUT works (kind of) The idea is that the .bashrc file is ran everytime a new bash terminal is opened. Therefore in .bashrc, we can source the following script:
+It's a bit of a bodge. The idea is that the .bashrc file is ran everytime a new bash terminal is opened. Therefore in .bashrc, we can source the following script:
 
 ```
 # Get the ID of the last opened window that contains the keyword 'Terminal'
