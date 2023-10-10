@@ -13,6 +13,6 @@ Option 1:
 Option 2:
 - Clone this repo and add the line `source <PATH_TO>/last_window_top.sh` to your `.bashrc` file.
 
-<i>Note: `.bashrc` is located in your home directory.
+<i>Note: `.bashrc` is located in your home directory.</i>
 ## Current Limitation
 - If you previously <i>un-always-on-top</i> a terminal window, but open a new tab (in any window), it will trigger the last opened terminal to be on top. PRs are welcome!
