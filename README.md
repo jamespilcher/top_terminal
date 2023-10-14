@@ -1,5 +1,5 @@
 # New Terminal Window Defaults to 'Always on Top'
-
+## Idea
 The `.bashrc` script is executed each a new bash terminal is opened so we add the following steps:
 1. Get the ID of the last opened window that contains the keyword 'Terminal'
 2. Set the window with that ID to always be on top.
