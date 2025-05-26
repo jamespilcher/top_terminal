@@ -15,7 +15,7 @@ Option 2:
 
 <i>Note: `.bashrc` is located in your home directory.</i>
 ## Current Limitation
-- If you <i>un-always-on-top</i> a terminal window but open a new terminal session (e.g., a tab in any terminal window---therefore rerunning bashrc), it will make the last opened terminal to be on top.
+- If you <i>un-always-on-top</i> a terminal window but open a new terminal session (e.g., a tab in any terminal window---therefore rerunning bashrc), it will make the last opened terminal window to be on top.
 
 **This is _probably_ fixable (bodge-able) in two ways:**
 1. If possible, add a time-check condition for _always-on-topping_ (i.e., if the window was created just before bashrc ran, then make it on-top, otherwise don't.).
